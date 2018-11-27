@@ -8,7 +8,7 @@
 
 def select_winner(passengers)
   # add the code snippet here!
-  passengers.each do |suite, name|
+  passengers.each do |name, suite|
     puts "#{suite} => #{name}"
   end 
 end
